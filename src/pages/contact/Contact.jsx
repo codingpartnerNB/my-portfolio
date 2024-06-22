@@ -22,8 +22,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_7hvgfn7', 'template_h4eob1g', formRef.current, {
+        publicKey: 'sC_ENg6dNefQednsK',
       })
       .then(
         () => {

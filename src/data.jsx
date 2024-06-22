@@ -7,6 +7,7 @@ import {
 
 import Project1 from './assets/project-1.jpg';
 import Project2 from './assets/project-2.jpg';
+import Project3 from './assets/project-3.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -159,6 +160,14 @@ export const portfolio = [
     details: 'The Project provides functionality of compose, send and receive mails with image attaching. In inbox there is feature to distinguish between read or unread mails. For lean code and separate of concerns Action creators are used to sending API request and dispatching actions.',
     demoProject: 'https://mail-box-288ad.web.app',
     gitUrl: 'https://github.com/codingpartnerNB/mail-box.git'
+  },
+  {
+    id: 3,
+    img: Project3,
+    title: 'Responsive Portfolio',
+    details: 'The Project is fully responsive with animation effect.',
+    demoProject: 'https://responsive-portfolio-b1d93.web.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/responsive-animated-portfolio.git'
   },
 ];
 
