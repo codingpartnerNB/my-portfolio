@@ -8,7 +8,8 @@ import {
 import Project1 from './assets/project-1.jpg';
 import Project2 from './assets/project-2.jpg';
 import Project3 from './assets/project-3.jpg';
-import Project4 from './assets/Dice Game.jpg';
+import Project4 from './assets/login-signup.jpg';
+import Project5 from './assets/Dice Game.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -146,12 +147,20 @@ export const skills = [
 
 export const portfolio = [
   {
-    id: 4,
-    img: Project4,
+    id: 5,
+    img: Project5,
     title: 'Dice Games',
     details: 'Dice Games is a fun and interactive project that features two classic, dice-based games: Tic Tac Toe and Snakes and Ladders. Both games incorporate the use of dice mechanics to enhance gameplay and bring a fresh twist to these timeless favorites. The project combines strategy and chance, making it engaging for players of all ages.',
     demoProject: 'https://dice-games-xi.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/dice-games.git'
+  },
+  {
+    id: 4,
+    img: Project4,
+    title: 'Login Signup',
+    details: 'Developed a fully responsive Login and Signup page integrated with Firebase Authentication, ensuring secure user sign-in and registration. Focused on clean UI design, seamless user experience, and mobile-friendly layout across all devices.',
+    demoProject: 'https://login-register-77258.web.app/login',
+    gitUrl: 'https://github.com/codingpartnerNB/login-register.git'
   },
   {
     id: 3,
