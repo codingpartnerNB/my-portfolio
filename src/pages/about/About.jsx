@@ -1,7 +1,7 @@
 import React from 'react'
 import Info from '../../components/Info';
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/NehaResume.pdf';
+import CV from '../../assets/Neha Tech.pdf';
 import './About.css';
 import Skills from '../../components/Skills';
 
