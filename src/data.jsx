@@ -10,6 +10,7 @@ import Project2 from './assets/project-2.jpg';
 import Project3 from './assets/project-3.jpg';
 import Project4 from './assets/login-signup.jpg';
 import Project5 from './assets/Dice Game.jpg';
+import Project6 from './assets/image-editor.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -147,6 +148,14 @@ export const skills = [
 
 export const portfolio = [
   {
+    id: 6,
+    img: Project6,
+    title: 'Image Editor',
+    details: 'Developed a feature-rich image editor using ReactJS and Fabric.js, enabling users to search images via APIs like Unsplash and customize them with draggable, resizable text and shapes. Implemented debouncing for efficient, real-time image search. Added layer management and one-click download support. Designed a clean, responsive UI for smooth editing across all devices.',
+    demoProject: 'https://image-editor-beta-pied.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/image-editor.git'
+  },
+  {
     id: 5,
     img: Project5,
     title: 'Dice Games',
@@ -166,7 +175,7 @@ export const portfolio = [
     id: 3,
     img: Project3,
     title: 'Responsive Portfolio',
-    details: 'The Project is fully responsive with animation effect.',
+    details: 'Developed a fully responsive portfolio website using ReactJS, Tailwind CSS, and Framer Motion. Integrated smooth animations for an enhanced user experience. Used an external API to fetch and display dynamic data.',
     demoProject: 'https://responsive-animated-portfolio.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/responsive-animated-portfolio.git'
   },
