@@ -11,6 +11,7 @@ import Project3 from './assets/project-3.jpg';
 import Project4 from './assets/login-signup.jpg';
 import Project5 from './assets/Dice Game.jpg';
 import Project6 from './assets/image-editor.jpg';
+import Project7 from './assets/poll-spark.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -147,6 +148,14 @@ export const skills = [
 ];
 
 export const portfolio = [
+  {
+    id: 7,
+    img: Project7,
+    title: 'Poll Spark',
+    details: 'Engineered a full-stack web application using React.js, Node.js, Express, and MongoDB, enabling users to create, share, and vote in polls instantly. Implemented real-time vote updates using Socket.IO, allowing seamless live interaction without page refreshes. Designed a responsive and intuitive UI with React Hooks and Context API, enhancing user experience across all devices. Focused on scalability, real-time performance, and clean code architecture, making the app production-ready.',
+    demoProject: 'https://poll-spark.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/live-poll.git'
+  },
   {
     id: 6,
     img: Project6,
