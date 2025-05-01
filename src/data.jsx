@@ -12,6 +12,7 @@ import Project4 from './assets/login-signup.jpg';
 import Project5 from './assets/Dice Game.jpg';
 import Project6 from './assets/image-editor.jpg';
 import Project7 from './assets/poll-spark.jpg';
+import Project8 from './assets/blog-hub.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -32,6 +33,10 @@ import Bootstrap from './assets/Bootstrap.png';
 import GitHub from './assets/Github.png';
 import Firebase from './assets/Firebase.png';
 import CoreJAVA from './assets/CoreJAVA.png';
+import TailwindCSS from './assets/TailwindCSS.png';
+import NodeJS from './assets/NodeJS.png';
+import MongoDB from './assets/MongoDB.png';
+import NextJS from './assets/NextJS.png';
 
 export const links = [
   {
@@ -127,20 +132,48 @@ export const skills = [
 
   {
     id: 6,
+    title: 'TailwindCSS',
+    image: TailwindCSS,
+    imgLink: 'https://tailwindcss.com/',
+  },
+
+  {
+    id: 7,
+    title: 'NodeJS',
+    image: NodeJS,
+    imgLink: 'https://nodejs.org/en',
+  },
+
+  {
+    id: 8,
+    title: 'MongoDB',
+    image: MongoDB,
+    imgLink: 'https://www.mongodb.com/',
+  },
+
+  {
+    id: 9,
+    title: 'NextJS',
+    image: NextJS,
+    imgLink: 'https://nextjs.org/',
+  },
+
+  {
+    id: 10,
     title: 'GitHub',
     image: GitHub,
     imgLink: 'https://github.com/',
   },
 
   {
-    id: 7,
+    id: 11,
     title: 'Firebase',
     image: Firebase,
     imgLink: 'https://firebase.google.com/',
   },
 
   {
-    id: 8,
+    id: 12,
     title: 'Core JAVA',
     image: CoreJAVA,
     imgLink: 'https://www.java.com/en/',
@@ -148,6 +181,14 @@ export const skills = [
 ];
 
 export const portfolio = [
+  {
+    id: 8,
+    img: Project8,
+    title: 'Blog Hub',
+    details: 'Blog Hub is a dynamic blogging application that allows users to create, read, update, and delete blog posts with ease. Built with a responsive frontend and real-time backend integration, it delivers a smooth and interactive experience for both writers and readers. The application features user authentication, enabling personalized content management. Users can also comment on posts, fostering community engagement. The clean and modern design ensures an intuitive user experience across all devices.',
+    demoProject: 'https://blog-hub-eta.vercel.app/blogs',
+    gitUrl: 'https://github.com/codingpartnerNB/blog-hub.git'
+  },
   {
     id: 7,
     img: Project7,
