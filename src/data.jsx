@@ -10,9 +10,10 @@ import Project2 from './assets/project-2.jpg';
 import Project3 from './assets/project-3.jpg';
 import Project4 from './assets/login-signup.jpg';
 import Project5 from './assets/Dice Game.jpg';
-import Project6 from './assets/image-editor.jpg';
-import Project7 from './assets/poll-spark.jpg';
-import Project8 from './assets/blog-hub.jpg';
+import Project6 from './assets/secure-sight.jpg';
+import Project7 from './assets/image-editor.jpg';
+import Project8 from './assets/poll-spark.jpg';
+import Project9 from './assets/blog-hub.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -182,28 +183,36 @@ export const skills = [
 
 export const portfolio = [
   {
-    id: 8,
-    img: Project8,
+    id: 9,
+    img: Project9,
     title: 'Blog Hub',
     details: 'Blog Hub is a dynamic blogging application that allows users to create, read, update, and delete blog posts with ease. Built with a responsive frontend and real-time backend integration, it delivers a smooth and interactive experience for both writers and readers. The application features user authentication, enabling personalized content management. Users can also comment on posts, fostering community engagement. The clean and modern design ensures an intuitive user experience across all devices.',
     demoProject: 'https://blog-hub-eta.vercel.app/blogs',
     gitUrl: 'https://github.com/codingpartnerNB/blog-hub.git'
   },
   {
-    id: 7,
-    img: Project7,
+    id: 8,
+    img: Project8,
     title: 'Poll Spark',
     details: 'Engineered a full-stack web application using React.js, Node.js, Express, and MongoDB, enabling users to create, share, and vote in polls instantly. Implemented real-time vote updates using Socket.IO, allowing seamless live interaction without page refreshes. Designed a responsive and intuitive UI with React Hooks and Context API, enhancing user experience across all devices. Focused on scalability, real-time performance, and clean code architecture, making the app production-ready.',
     demoProject: 'https://poll-spark.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/live-poll.git'
   },
   {
-    id: 6,
-    img: Project6,
+    id: 7,
+    img: Project7,
     title: 'Image Editor',
     details: 'Developed a feature-rich image editor using ReactJS and Fabric.js, enabling users to search images via APIs like Unsplash and customize them with draggable, resizable text and shapes. Implemented debouncing for efficient, real-time image search. Added layer management and one-click download support. Designed a clean, responsive UI for smooth editing across all devices.',
     demoProject: 'https://image-editor-beta-pied.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/image-editor.git'
+  },
+  {
+    id: 6,
+    img: Project6,
+    title: 'Secure Sight',
+    details: 'Secure Sight is a sleek, real-time security dashboard designed to monitor and visualize surveillance data efficiently. It provides users with a centralized platform to track alerts, camera feeds, and threat levels across multiple zones. Built with a responsive and intuitive UI, the dashboard delivers a seamless user experience with dynamic charts, status summaries, and actionable insights. Ideal for security teams, it enhances visibility and control, enabling faster decision-making in critical situations.',
+    demoProject: 'https://secure-sight.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/secure-sight.git'
   },
   {
     id: 5,
