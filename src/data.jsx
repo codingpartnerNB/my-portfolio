@@ -3,6 +3,8 @@ import {
   FaUser,
   FaFolderOpen,
   FaEnvelopeOpen,
+  FaBriefcase,
+  FaGraduationCap
 } from 'react-icons/fa';
 
 import Project1 from './assets/project-1.jpg';
@@ -336,3 +338,30 @@ export const themes = [
     color: 'hsl(42, 100%, 50%)',
   },
 ];
+
+export const resume = [
+  {
+    id: 1,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2024 - PRESENT',
+    title: 'Software Developer <span> Infusion pvt ltd </span>',
+    desc: 'Currently working as a Software Developer at Infusion pvt ltd, focusing on developing and maintaining web applications using modern technologies. Collaborating with cross-functional teams to deliver high-quality software solutions that meet client requirements and enhance user experience.'
+  },
+  {
+    id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2024',
+    title: 'Web Developer Intern <span> Safe Ledger Private Limited </span>',
+    desc: 'Completed a Web Developer Internship at Safe Ledger Private Limited, where I gained hands-on experience in developing web applications using ReactJS and NextJS. Contributed to various projects, enhancing my skills in front-end development, and collaborating with senior developers to implement best practices.'
+  },
+  {
+    id: 3,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2019 - 2023',
+    title: 'Bachelor of Technology in Computer Science <span> Maharishi Dayanand University </span>',
+    desc: 'Graduated with a Bachelor of Technology in Computer Science from Maharishi Dayanand University, where I developed a strong foundation in software development, algorithms, and data structures. Engaged in various projects that honed my programming skills and prepared me for a career in technology.'
+  }
+]

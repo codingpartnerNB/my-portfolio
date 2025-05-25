@@ -4,6 +4,8 @@ import { FaDownload } from 'react-icons/fa';
 import CV from '../../assets/Neha Tech.pdf';
 import './About.css';
 import Skills from '../../components/Skills';
+import { resume } from '../../data';
+import ResumeItem from '../../components/ResumeItem';
 
 const About = () => {
   return (
@@ -28,6 +30,26 @@ const About = () => {
         <h3 className="section__subtitle subtitle__center">My Skills</h3>
         <div className="skills__container grid">
           <Skills />
+        </div>
+      </section>
+      <div className="separator"></div>
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
+        <div className="resume__container grid">
+          <div className="resume__data">
+            {resume.map((val)=>{
+              if(val.category === 'experience'){
+                return <ResumeItem key={val.id} {...val} />
+              }
+            })}
+          </div>
+          <div className="resume__data">
+            {resume.map((val)=>{
+              if(val.category === 'education'){
+                return <ResumeItem key={val.id} {...val} />
+              }
+            })}
+          </div>
         </div>
       </section>
     </main>
