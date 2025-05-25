@@ -9,11 +9,13 @@ import Project1 from './assets/project-1.jpg';
 import Project2 from './assets/project-2.jpg';
 import Project3 from './assets/project-3.jpg';
 import Project4 from './assets/login-signup.jpg';
-import Project5 from './assets/Dice Game.jpg';
+import Project5 from './assets/healthcare-dashboard.jpg';
 import Project6 from './assets/secure-sight.jpg';
-import Project7 from './assets/image-editor.jpg';
-import Project8 from './assets/poll-spark.jpg';
-import Project9 from './assets/blog-hub.jpg';
+import Project7 from './assets/Dice Game.jpg';
+import Project8 from './assets/image-editor.jpg';
+import Project9 from './assets/task-board.jpg';
+import Project10 from './assets/poll-spark.jpg';
+import Project11 from './assets/blog-hub.jpg';
 
 import Theme1 from './assets/blue.png';
 import Theme2 from './assets/red.png';
@@ -183,28 +185,44 @@ export const skills = [
 
 export const portfolio = [
   {
-    id: 9,
-    img: Project9,
+    id: 11,
+    img: Project11,
     title: 'Blog Hub',
     details: 'Blog Hub is a dynamic blogging application that allows users to create, read, update, and delete blog posts with ease. Built with a responsive frontend and real-time backend integration, it delivers a smooth and interactive experience for both writers and readers. The application features user authentication, enabling personalized content management. Users can also comment on posts, fostering community engagement. The clean and modern design ensures an intuitive user experience across all devices.',
     demoProject: 'https://blog-hub-eta.vercel.app/blogs',
     gitUrl: 'https://github.com/codingpartnerNB/blog-hub.git'
   },
   {
-    id: 8,
-    img: Project8,
+    id: 10,
+    img: Project10,
     title: 'Poll Spark',
     details: 'Engineered a full-stack web application using React.js, Node.js, Express, and MongoDB, enabling users to create, share, and vote in polls instantly. Implemented real-time vote updates using Socket.IO, allowing seamless live interaction without page refreshes. Designed a responsive and intuitive UI with React Hooks and Context API, enhancing user experience across all devices. Focused on scalability, real-time performance, and clean code architecture, making the app production-ready.',
     demoProject: 'https://poll-spark.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/live-poll.git'
   },
   {
-    id: 7,
-    img: Project7,
+    id: 9,
+    img: Project9,
+    title: 'TaskBoard',
+    details: 'A dynamic task management web app built with React.js and Tailwind CSS, integrated with Firebase Authentication and Firestore for secure user login and real-time data storage. Users can create, update, and manage tasks across customizable boards, offering an intuitive workflow for personal or team productivity.',
+    demoProject: 'https://task-board-37e3.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/task-board.git'
+  },
+  {
+    id: 8,
+    img: Project8,
     title: 'Image Editor',
     details: 'Developed a feature-rich image editor using ReactJS and Fabric.js, enabling users to search images via APIs like Unsplash and customize them with draggable, resizable text and shapes. Implemented debouncing for efficient, real-time image search. Added layer management and one-click download support. Designed a clean, responsive UI for smooth editing across all devices.',
     demoProject: 'https://image-editor-beta-pied.vercel.app/',
     gitUrl: 'https://github.com/codingpartnerNB/image-editor.git'
+  },
+  {
+    id: 7,
+    img: Project7,
+    title: 'Dice Games',
+    details: 'Dice Games is a fun and interactive project that features two classic, dice-based games: Tic Tac Toe and Snakes and Ladders. Both games incorporate the use of dice mechanics to enhance gameplay and bring a fresh twist to these timeless favorites. The project combines strategy and chance, making it engaging for players of all ages.',
+    demoProject: 'https://dice-games-xi.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/dice-games.git'
   },
   {
     id: 6,
@@ -217,10 +235,10 @@ export const portfolio = [
   {
     id: 5,
     img: Project5,
-    title: 'Dice Games',
-    details: 'Dice Games is a fun and interactive project that features two classic, dice-based games: Tic Tac Toe and Snakes and Ladders. Both games incorporate the use of dice mechanics to enhance gameplay and bring a fresh twist to these timeless favorites. The project combines strategy and chance, making it engaging for players of all ages.',
-    demoProject: 'https://dice-games-xi.vercel.app/',
-    gitUrl: 'https://github.com/codingpartnerNB/dice-games.git'
+    title: 'HealthCare Dashboard',
+    details: 'A responsive static web dashboard built using React.js and plain CSS, designed to display key health care metrics and data insights. It features clean UI components, modern layout, and user-friendly interactions suitable for a medical or wellness-related admin panel.',
+    demoProject: 'https://health-care-dashboard-nu.vercel.app/',
+    gitUrl: 'https://github.com/codingpartnerNB/health-care-dashboard.git'
   },
   {
     id: 4,
